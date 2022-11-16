@@ -9,7 +9,8 @@ load_dotenv(os.path.expanduser("~/supervisely.env"))
 load_dotenv("local.env")
 
 
-def paste_logo(bg_path, save_path, logo_path="src/ytlogo.png"):
+def paste_logo(bg_path, save_path):
+    logo_path = os.path.join(os.getcwd(), "src/ytlogo.png")
     percentage = 0.15
     img = Image.open(bg_path)
     logo = Image.open(logo_path)
