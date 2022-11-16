@@ -65,6 +65,12 @@ def main():
 
         progress.iter_done_report()
 
+    print("Done")
+    if sly.is_production():
+        task_id = sly.env.task_id()
+        file_info = api.file.get_info_by_path(team_id, remote_result_path)
+        api.task.set_output_directory(task_id, file_info.id, remote_dir)
+
 
 if __name__ == "__main__":
     main()
