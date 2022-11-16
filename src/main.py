@@ -56,6 +56,9 @@ def main():
             api.file.remove(team_id, remote_result_path)
         api.file.upload(team_id, local_result_path, remote_result_path)
 
+        sly.fs.silent_remove(local_path)
+        sly.fs.silent_remove(local_result_path)
+
 
 if __name__ == "__main__":
     main()
