@@ -48,7 +48,7 @@ As a result of running this app, images with youtube button will be created in t
 
 Then you can add the following code snippet to your README (do not forget to replace links in example):
 
-```
+```md
 <a data-key="sly-embeded-video-link" href="https://youtu.be/e47rWdgK-_M" data-video-code="e47rWdgK-_M">
     <img src="https://i.imgur.com/sJdEEkN.png" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
 </a>
