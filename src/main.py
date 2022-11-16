@@ -40,6 +40,9 @@ def main():
     for info in files_info:
         remote_path = info.path
         # remote_path = sly.env.file()
+        if sly.image.has_valid_ext(remote_path) is False:
+            progress.iter_done_report()
+            continue
 
         local_path = os.path.join("src", sly.fs.get_file_name_with_ext(remote_path))
         api.file.download(team_id, remote_path, local_path)
