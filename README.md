@@ -33,7 +33,7 @@ This app supports any widely used image format, and is not tied to any aspect ra
 <img src="https://user-images.githubusercontent.com/115161827/202220220-ff76d5d4-20b1-40ac-a0b3-8e2416131c4e.gif">
 
 3. Upload images into new directory using drag-and-drop
-
+  <img src="https://user-images.githubusercontent.com/115161827/202231709-a964351f-390f-41be-a685-4489d9845c33.gif">
 
 4. Right click to directory and run the app from the context menu
 <img src="https://user-images.githubusercontent.com/115161827/202220693-788ba804-6fc5-4ddd-87b3-494f459374d9.png">
