@@ -44,7 +44,7 @@ This app supports any widely used image format, and is not tied to any aspect ra
 
 As a result of running this app, images with youtube button will be created in the same directory with modified names (`_youtube` will be added to the file names)
 
-<img src="https://user-images.githubusercontent.com/48913536/178972113-4d53f0dc-6323-4721-9ec2-f09de16ad0bc.png" width="80%" style='padding-top: 10px'>
+<img src="https://user-images.githubusercontent.com/115161827/202245059-27263f34-ed39-4ba5-97f2-bb0c32d53595.gif" width="80%" style='padding-top: 10px'>
 
 Then you can add the following code snippet to your README (do not forget to replace links in example):
 
