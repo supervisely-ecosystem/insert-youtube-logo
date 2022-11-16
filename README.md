@@ -20,9 +20,9 @@
 
 App iterates over all images in directory (in Team Files) and creates new images with YouTube button in the center alongside. App is useful for developers who prepare screenshots and videos for `README.md` files.
 
-Typical use case is the following: you have a video on youtube, and you would like to add it to readme and make it clearly visible in both Supervisely Ecosystem and github page. Currently GitHub does not support youtube player embedding, but it is possible to insert clickable image to readme
+Typical use case is the following: you have a video on youtube, and you would like to add it to readme and make it clearly visible in both Supervisely Ecosystem and github page. Currently GitHub does not support youtube player embedding, but it is possible to insert clickable image to readme.
 
-This app supports any widely used image format, and is not tied to any aspect ratio or resolution.
+This app supports any widely used image formats, and is not tied to any aspect ratio or resolution.
 
 # How to Run
 
