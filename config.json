@@ -5,6 +5,7 @@
   "description": "Puts YouTube logo on all images in directory",
   "categories": ["development"],
   "icon": "https://user-images.githubusercontent.com/115161827/202196824-c2064c05-6c0a-42c5-9169-41bac96f72f8.png",
+  "icon_cover": true,
   "poster": "https://user-images.githubusercontent.com/115161827/202196829-fc71bc02-73b0-40a4-a02a-1e1ac9cad13e.jpg",
   "context_menu": {
     "context_category": "Development",
