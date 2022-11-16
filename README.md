@@ -1,4 +1,5 @@
 <div align="center" markdown>
+<img src="https://user-images.githubusercontent.com/115161827/202196829-fc71bc02-73b0-40a4-a02a-1e1ac9cad13e.jpg"/>  
 
 # Insert YouTube logo
 
@@ -17,7 +18,7 @@
 
 # Overview
 
-App iterates over all images in directory (in Team Files) and creates new images with YouTube button in the center alongside. App is useful for developers who prepare screenshots and videos for README.md files.
+App iterates over all images in directory (in Team Files) and creates new images with YouTube button in the center alongside. App is useful for developers who prepare screenshots and videos for `README.md` files.
 
 Typical use case is the following: you have a video on youtube, and you would like to add it to readme and make it clearly visible in both Supervisely Ecosystem and github page. Currently GitHub does not support youtube player embedding, but it is possible to insert clickable image to readme
 
@@ -41,4 +42,21 @@ This app supports any widely used image format, and is not tied to any aspect ra
 
 ## Result
 
+As a result of running this app, images with youtube button will be created in the same directory with modified names (`_youtube` will be added to the file names)
+
 <img src="https://user-images.githubusercontent.com/48913536/178972113-4d53f0dc-6323-4721-9ec2-f09de16ad0bc.png" width="80%" style='padding-top: 10px'>
+
+Then you can add the following code snippet to your README (do not forget to replace links in example):
+
+```
+<a data-key="sly-embeded-video-link" href="https://youtu.be/e47rWdgK-_M" data-video-code="e47rWdgK-_M">
+    <img src="https://i.imgur.com/sJdEEkN.png" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
+</a>
+```
+
+Once you added it to your readme, it will be shown nicely in both Supervisely platform and GitHub.
+
+
+In Supervisely  |  In GitHub
+:-------------------------:|:-----------------------------------:
+<img src="https://user-images.githubusercontent.com/115161827/202243190-fe28997c-2c70-46dd-9f15-9122b4ce9ad4.png" style="max-height: 300px; width: auto;"/>  |  <img src="https://user-images.githubusercontent.com/115161827/202243009-3e17cd2a-08ef-4636-9ed0-109b662dfe63.png" style="max-height: 300px; width: auto;"/>
