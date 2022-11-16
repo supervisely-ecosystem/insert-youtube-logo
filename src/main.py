@@ -36,6 +36,7 @@ def main():
     remote_dir = sly.env.folder()
     files_info = api.file.list2(team_id, remote_dir)
 
+    progress = sly.Progress("Processing...", len(files_info))
     for info in files_info:
         remote_path = info.path
         # remote_path = sly.env.file()
@@ -58,6 +59,8 @@ def main():
 
         sly.fs.silent_remove(local_path)
         sly.fs.silent_remove(local_result_path)
+
+        progress.iter_done_report()
 
 
 if __name__ == "__main__":

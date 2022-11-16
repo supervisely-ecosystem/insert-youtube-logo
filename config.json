@@ -9,5 +9,6 @@
   "context_menu": {
     "context_category": "Development",
     "target": ["files_folder"]
-  }
+  },
+  "task_location": "workspace_tasks"
 }
