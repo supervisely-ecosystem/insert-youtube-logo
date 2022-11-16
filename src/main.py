@@ -10,7 +10,7 @@ load_dotenv("local.env")
 
 
 def paste_logo(bg_path, save_path):
-    logo_path = os.path.join(os.getcwd(), "src/ytlogo.png")
+    logo_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ytlogo.png")
     print("logo path =", logo_path)
     percentage = 0.15
     img = Image.open(bg_path)
