@@ -4,6 +4,7 @@
   "name": "Insert YouTube logo",
   "description": "Puts YouTube logo on all images in directory",
   "categories": ["development"],
+  "docker_image": "supervisely/development:0.0.1",
   "icon": "https://user-images.githubusercontent.com/115161827/202227967-fb79d0cb-5f26-440c-97da-af8e79692710.png",
   "icon_cover": true,
   "poster": "https://user-images.githubusercontent.com/115161827/202196829-fc71bc02-73b0-40a4-a02a-1e1ac9cad13e.jpg",
